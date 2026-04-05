@@ -1,0 +1,6 @@
+@SyncSentinel.API_HostAddress = http://localhost:5025
+
+GET {{SyncSentinel.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
