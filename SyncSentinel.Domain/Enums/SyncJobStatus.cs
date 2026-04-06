@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace SyncSentinel.Domain.Enums
 {
-    internal class SyncJobStatus
+    public enum SyncJobStatus
     {
+        Pending = 1,
+        InProgress = 2,
+        Succeeded = 3,
+        Failed = 4,
+        Retrying = 5
     }
 }

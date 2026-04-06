@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace SyncSentinel.Domain.Enums
 {
-    internal class JobType
+    public enum JobType
     {
+        ProductSync = 1,
+        InventorySync = 2,
+        OrderSync = 3,
+        CustomerSync = 4,
+        PricingSync = 5
     }
 }
