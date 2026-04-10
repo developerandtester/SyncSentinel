@@ -4,9 +4,8 @@ using SyncSentinel.Application.Interfaces;
 using SyncSentinel.Domain.Entities;
 using SyncSentinel.Domain.Enums;
 using SyncSentinel.Infrastructure.Persistence;
-using System;
 
-namespace SyncSentinel.Application.Services;
+namespace SyncSentinel.Infrastructure.Services;
 
 public class IncidentService : IIncidentService
 {

@@ -12,7 +12,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SyncSentinel.Domain\SyncSentinel.Domain.csproj" />
-	<ProjectReference Include="..\SyncSentinel.Infrastructure\SyncSentinel.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

@@ -10,11 +10,13 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.25" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="8.0.25" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.25" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.25" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SyncSentinel.Domain\SyncSentinel.Domain.csproj" />
+	  <ProjectReference Include="..\SyncSentinel.Domain\SyncSentinel.Domain.csproj" />
+	  <ProjectReference Include="..\SyncSentinel.Application\SyncSentinel.Application.csproj" />
   </ItemGroup>
 
 </Project>
